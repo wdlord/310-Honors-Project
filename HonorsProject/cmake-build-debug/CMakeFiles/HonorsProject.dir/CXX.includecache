@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/William/CLionProjects/HonorsProject/SpecialTree.h
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+algorithm
+-
+ctime
+-
+
+C:/Users/William/CLionProjects/HonorsProject/main.cpp
+iostream
+-
+SpecialTree.h
+C:/Users/William/CLionProjects/HonorsProject/SpecialTree.h
+
